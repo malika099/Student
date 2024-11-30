@@ -24,7 +24,7 @@ public class Main {
         car3.year3 = 2023;
         System.out.println(car3.brand);
         System.out.println(car3.color);
-        System.out.println(car3.year3);*/
+        System.out.println(car3.year3);
 
 
         Dog dog = new Dog();
@@ -35,9 +35,43 @@ public class Main {
 
         System.out.println(dog.name);
         System.out.println(dog.color);
-        System.out.println(2024-dog.years);
+        System.out.println(2024-dog.years);*/
 
-        //int a = 10;
+        Student student = new Student();
+        student.name = "name: "+"Dastan";
+        student.faculty = "faculty: "+"програитрования";
+        student.SchoolNumber = 20;
+        student.university = "name university: "+"Естественно–технический";
+        student.years = 17;
+        System.out.println(student.name);
+        System.out.println(student.faculty);
+        System.out.println(student.SchoolNumber);
+        System.out.println(student.university);
+        System.out.println(student.years);
+        //
+        Student student2 = new Student();
+        student2.name = "name: "+"Kankey";
+        student2.faculty = "Faculty: "+"cardiologist";
+        student2.SchoolNumber = 17;
+        student2.university = "name uneversity; "+"Кафедра кардиохирургии и эндоваскулярной хирургии";
+        student2.years = 17;
+        System.out.println(student2.name);
+        System.out.println(student2.faculty);
+        System.out.println(student2.SchoolNumber);
+        System.out.println(student2.university);
+        System.out.println(student2.years);
+        //
+        Student student3 = new Student();
+        student3.name = "name: "+"Ulan";
+        student3.faculty = "faculty: "+"програмирования";
+        student3.SchoolNumber = 5;
+        student3.university = "university"+"IT Hub Academy";
+        student3.years = 18;
+        System.out.println(student3.name);
+        System.out.println(student3.faculty);
+        System.out.println(student3.SchoolNumber);
+        System.out.println(student3.university);
+        System.out.println(student3.years);
         }
     }
 
