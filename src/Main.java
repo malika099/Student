@@ -35,7 +35,7 @@ public class Main {
 
         System.out.println(dog.name);
         System.out.println(dog.color);
-        System.out.println(2024-dog.years);*/
+        System.out.println(2024-dog.years);
 
         Student student = new Student();
         student.name = "name: "+"Dastan";
@@ -72,6 +72,70 @@ public class Main {
         System.out.println(student3.SchoolNumber);
         System.out.println(student3.university);
         System.out.println(student3.years);
-        }
-    }
 
+        Rectangle rect = new Rectangle("Милфа", "red",30);
+        System.out.println(rect);
+
+        Curss curss = new Curss("English",3,"Venera","Mondy,Wednsday,friday" );
+        System.out.println(curss);
+
+
+
+
+        Studentt stud = new Studentt("Аврора","Уилсон","11.01.2000", -24);
+
+        if (stud.age>0){
+            System.out.println("терс эмес сан");
+        }
+        else {
+            System.out.println("терс сан");
+        }
+        System.out.println(stud);*/
+
+
+
+        colculate(4,4);
+        colculate(7L,1);
+        colculate( 3.5, 2);
+        colculate(4,1,2);
+        colculate("Hello,","Компьютор!");
+        colculate("Я тебе дал", 10);
+        colculate(9);
+        colculate(8.0);
+
+    }
+    public static void  colculate (int a ,int  b ){
+        int f = a+b;
+        System.out.println("Сложение целых чисел: "+f);
+    }
+    public static void colculate (long a, int b){
+        double o = a - b;
+        System.out.println("Вычитание целых чисел:"+o);
+    }
+    public static void colculate   (double a, double b){
+        double c = (int) (a * b);
+        System.out.println("Умножение дробных чисел:"+c);
+    }
+    public static void colculate (int a, int b,int c){
+        int d = a + b * c;
+        System.out.println("Сложение трёх чисел:"+d);
+    }
+    public static void colculate(String a , String b){
+        String s = a;
+        String e = b;
+        System.out.println("Объединение строк:"+s+e);
+    }
+    public static void colculate (String a , int b){
+        String s = a;
+        int d = b;
+        System.out.println("Объединение строки с числом:"+a + b);
+    }
+    public static void colculate (int a){
+        int w = a;
+        System.out.println("Длина строки:"+w);
+    }
+    public static void colculate (double a ){
+        double d = a;
+        System.out.println("Возведение в степень:"+d);
+    }
+}
