@@ -137,5 +137,8 @@ public class Main {
     public static void colculate (double a ){
         double d = a;
         System.out.println("Возведение в степень:"+d);
+
+
+        System.out.println("malika");
     }
 }
