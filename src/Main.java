@@ -145,11 +145,14 @@ public class Main {
         int b = 20;
         int sum = f + b;
         System.out.println(sum);
-
         System.out.println("Malika");
         System.out.println("Kanukey Djanybekova");//kjhghjk
-
-
         System.out.println("ulan");
+
+        mm(1);
+    }
+    public static void mm (int a ){
+        System.out.println(1);
+        System.out.println(3);
     }
 }
