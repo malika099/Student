@@ -140,5 +140,16 @@ public class Main {
 
 
         System.out.println("malika");
+
+        int f = 10;
+        int b = 20;
+        int sum = f + b;
+        System.out.println(sum);
+
+        System.out.println("Malika");
+        System.out.println("Kanukey Djanybekova");//kjhghjk
+
+
+        System.out.println("ulan");
     }
 }
